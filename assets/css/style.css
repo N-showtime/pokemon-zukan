@@ -14,7 +14,7 @@ body {
   text-shadow: 2px 2px #fff;
 }
 
-#game {
+#zukan {
   background: #ffffff;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -30,7 +30,7 @@ body {
   margin: 1rem 0;
 }
 
-#hint {
+#name {
   font-weight: bold;
   margin-bottom: 1rem;
   color: #0074d9;
@@ -57,28 +57,14 @@ button {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  margin: 0.5rem;
+  margin: 1rem;
   transition: 0.3s;
 }
 
-#start-btn {
-  background-color: #28a745;
-  color: white;
-}
-
-#check-btn {
-  background-color: #0074d9;
-  color: white;
-}
 
 button:hover {
   opacity: 0.8;
   transform: scale(1.05);
-}
-
-#message {
-  margin-top: 1rem;
-  font-weight: bold;
 }
 
 .english {
