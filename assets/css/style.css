@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f8f9fa, #d6ecff);
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  text-shadow: 2px 2px #fff;
+}
+
+#game {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 2rem;
+  min-width: 300px;
+}
+
+#poke-img {
+  width: 120px;
+  height: 120px;
+  image-rendering: pixelated; /* ドット感を残す */
+  margin: 1rem 0;
+}
+
+#hint {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0074d9;
+}
+
+input[type="text"] {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  outline: none;
+  width: 200px;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #0074d9;
+  box-shadow: 0 0 5px rgba(0, 116, 217, 0.3);
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: 0.3s;
+}
+
+#start-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+#check-btn {
+  background-color: #0074d9;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+#message {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.english {
+    font-weight: bold;
+    color: blue;
+}
